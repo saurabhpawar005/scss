@@ -1,0 +1,17 @@
+
+@mixin lg($direction, $color...){
+    background-image: linear-gradient($direction, $color);
+}
+
+@mixin backgroundClip{
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@mixin atCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
